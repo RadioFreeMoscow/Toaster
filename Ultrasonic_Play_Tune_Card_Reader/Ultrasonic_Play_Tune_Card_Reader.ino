@@ -18,7 +18,7 @@ const int chipSelect = 10;
 void setup() {
 //generate a random number for boot file:
 
-long num = random(1,100);
+int num = random(1,100);
 String ff = ".wav";
 String bootnum = String(num);
 String bootfile = bootnum + ff;
